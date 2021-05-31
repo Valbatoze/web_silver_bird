@@ -1,0 +1,332 @@
+*{
+    font-family: 'Libre Baskerville', serif;
+}
+
+
+
+body{
+    margin: 0px;
+    background-color: white;
+}
+
+footer{
+    background-color: #E74832;
+    color: #FFFFFF;
+    height: 390px;
+    margin-bottom: 0px;
+    position: relative;
+}
+
+header{
+    font-family: 'HK Grotesk', serif;
+}
+
+.header_top{
+    height: 100px;
+}
+
+.header_logo {
+    align-items: center;
+}
+
+.header_logo img{
+    height: 64px;
+    width: 221px;
+}
+
+.header_nav {
+    border-top:solid rgba(227, 218, 204, 0.5);
+}
+
+.header_nav .item_list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.header_nav .item_nav {
+    margin: 0px 15px;
+}
+
+.header_nav .item_list .nav_link {
+    text-decoration: none;
+    font-size: 12px;
+    letter-spacing: 0px;
+    color: #003b5c;
+    font-weight: 600;
+    font-family: "HK Grotesk";
+    display: inline-block;
+}
+
+.hero {
+    height: 697px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0px;
+}
+
+.hero_intitu{
+    color: #003b5c;
+    font-size: 12px;
+    letter-spacing: 0px;
+    font-family: "HK Grotesk";
+}
+
+.hero_newsone{
+    height: 697px;
+    width: 736px;
+}
+
+.hero_img{
+    height: 55%;
+}
+
+.hero_img img {
+    max-width: 736px;
+}
+
+.hero_newstwo{
+    height: 567px;
+    width: 516px;
+}
+
+.hero_newstwo img {
+    max-width: 516px;
+}
+
+.hero_block{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 30%;
+}
+
+.hero_block h4{
+    font-size: 12px;
+    letter-spacing: 0px;
+    color: #5d534f;
+    opacity: 0.6;
+}
+
+.hero_body h2{
+    text-align: center;
+    width: 518px;
+    height: 117px;
+    font-size: 36px;
+    letter-spacing: 0px;
+    line-height: 39px;
+    color: #003b5c;
+}
+
+.hero_body p{
+    width: 518px;
+    height: 84px;
+    font-size: 16px;
+    letter-spacing: 0px;
+    line-height: 28px;
+    color: #5d534f;
+    font-weight: 400;
+    text-align: center;
+}
+
+.hero_body a {
+    color: #E74832;
+    text-decoration: none;
+}
+
+.newsletter{
+    height: 456px;
+}
+
+.newsletter img{
+    width: 100%;
+    height: 100%;
+}
+
+.item{
+    height: 491px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+hr {
+    border: none;
+    border-top: 3px double #E5DBD1;
+    overflow: visible;
+    text-align: center;
+    height: 5px;
+}
+
+.item_cat{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.item_cat .cat_list .cat_nav {
+    display: inline-block;
+}
+
+.item_cat .cat_list .cat_nav .cat_link{
+    font-family: "HK Grotesk";
+    text-align: center;
+    font-size: 12px;
+    letter-spacing: 0px;
+    color: #5d534f;
+    text-decoration: none;
+}
+
+.img_news{
+    width: 411px;
+    height: 393px;
+    margin: 0px;
+}
+
+.item_img{
+    height: 60%;
+    /* background-color: darkgreen; */
+}
+
+.item_img img {
+    max-width: 393px;
+}
+
+.item_par{
+    height: 30%;
+    letter-spacing: 0px;
+    line-height: 31px;
+    color: #003b5c;
+    font-weight: 400;
+    margin-right: 10px;
+}
+
+.par_body {
+    margin: 0px;
+}
+
+.par_body h2{
+    margin: 0px;
+    text-align: left;
+}
+
+.par_body a {
+    color: #E74832;
+    text-decoration: none;
+}
+
+.par_block{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0px;
+}
+
+.par_block h4{
+    font-size: 12px;
+    letter-spacing: 0px;
+    color: #5d534f;
+    opacity: 0.6;
+}
+.par_intitu{
+    font-size: 12px;
+    letter-spacing: 0px;
+    font-family: "HK Grotesk";
+}
+.item_img p{
+    margin: 3px;
+}
+
+.about{
+    height: 70%;
+    width: 90%;
+    margin-left: 5%;
+    border-bottom: solid rgb(238, 230, 215);
+    position: relative;
+    display: flex;
+}
+
+.about_logo img{
+    max-height: 138px;
+    max-width: 285px;
+    position: absolute;
+    top: 20%;
+}
+
+.categories {
+    position: absolute;
+    left: 30%;
+    top: 30%;
+
+}
+
+.about_cat {
+    list-style: none;
+}
+
+.about_cat li {
+    text-decoration: none;
+    margin-top: 10px;;
+}
+
+.about_one {
+    font-size: 22px;
+    letter-spacing: -1px;
+    line-height: 26px;
+    font-family: "HK Grotesk";
+}
+
+.about_other {
+    font-size: 12px;
+    letter-spacing: 0px;
+    font-family: "HK Grotesk";
+}
+
+.a_propos {
+    position: absolute;
+    left: 45%;
+    top: 30%;
+}
+
+.rejoindre {
+    position: absolute;
+    left: 65%;
+    top: 30%;
+}
+
+.rejoindre button {
+    margin-left: 15%;
+}
+
+.suivre {
+    position: absolute;
+    left: 85%;
+    top: 30%;
+}
+
+.cprg{
+    margin-top: 2px;
+    height: 20%;
+    width: 90%;
+    margin-left: 5%;
+    border-top: solid rgb(238, 230, 215);
+    position: relative;
+}
+
+.cprg_ment{
+    font-family: "HK Grotesk";
+    font-size: 12px;
+    position: absolute;
+    top: 50%;
+    left: 0px;
+}
+
+.cprg_tag{
+    font-family: "HK Grotesk";
+    font-size: 12px;
+    position: absolute;
+    top: 50%;
+    right: 0px;
+}
