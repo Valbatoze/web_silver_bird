@@ -23,6 +23,23 @@ header{
 
 .header_top{
     height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.meteo{
+    display: flex;
+    align-items: center;
+}
+
+.meteo_logo{
+    padding-right: 20px;
+}
+
+.meteo_info{
+    color: #003b5c;
+    margin: 0%;
 }
 
 .header_logo {
@@ -32,6 +49,18 @@ header{
 .header_logo img{
     height: 64px;
     width: 221px;
+}
+
+.header_list{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.header_list a{
+    text-decoration: none;
+    color: #003b5c;
+    padding-left: 20px;
 }
 
 .header_nav {
@@ -137,16 +166,32 @@ header{
 
 .newsletter{
     height: 456px;
+    background-image: url('./img/BG2x2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: white;
 }
 
-.newsletter img{
-    width: 100%;
-    height: 100%;
+.news_contante {
+    width: 745px;
+    transform: translate(90%, 120%);
+}
+
+.news_contante button {
+    color: #003b5c;
+    border: 2px solid #003b5c;
+    padding: 10px 10px;
 }
 
 .item{
     height: 491px;
     width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.item_top {
     display: flex;
     justify-content: center;
 }
@@ -298,12 +343,21 @@ hr {
 
 .rejoindre button {
     margin-left: 15%;
+    color: white;
+    background-color: #E74832;
+    border: 2px solid white;
+    padding: 10px 10px;
 }
 
 .suivre {
     position: absolute;
     left: 85%;
     top: 30%;
+}
+
+.suivre_logo i{
+    padding-right: 10px;
+    padding-left: 10px;
 }
 
 .cprg{
